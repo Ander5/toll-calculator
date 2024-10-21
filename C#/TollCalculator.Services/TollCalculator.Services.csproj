@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="TollCalculatorService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TollCalculator.Domain\TollCalculator.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PublicHoliday" Version="2.41.0" />
+  </ItemGroup>
+
+</Project>
